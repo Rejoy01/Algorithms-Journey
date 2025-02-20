@@ -1,0 +1,14 @@
+1️⃣ Explain the Bubble Sort algorithm.
+✅ Example Answer:
+
+Bubble Sort is a simple sorting algorithm that repeatedly compares adjacent elements and swaps them if they are in the wrong order. It continues until the array is sorted. After each pass, the largest unsorted element moves to its correct position.
+
+👉 Follow-up: What is the time complexity of Bubble Sort?
+✅ Answer:
+
+The worst-case and average-case time complexity is O(n²) because we use two nested loops. The best case is O(n) if the array is already sorted (using an optimized version).
+
+👉 Follow-up: How can you optimize Bubble Sort?
+✅ Answer:
+
+We can stop early if no swaps occur in a pass. This makes the best-case time complexity O(n) when the array is already sorted.

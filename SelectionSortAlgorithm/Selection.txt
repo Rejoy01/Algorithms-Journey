@@ -1,0 +1,35 @@
+📌 How Selection Sort Works (Step-by-Step)
+1️⃣ Find the smallest element in the unsorted array.
+2️⃣ Swap it with the first element of the unsorted part.
+3️⃣ Move to the next position and repeat the process until the array is sorted.
+
+ Step-by-Step Breakdown of Selection Sort
+Let's go step by step to understand how Selection Sort works using an example.
+
+Example Array: [5, 3, 8, 1, 2]
+We will sort this array in ascending order using Selection Sort.
+
+Step 1️⃣: Find the Minimum in the Unsorted Array
+👉 The first element (5) is assumed to be the smallest.
+👉 Compare 5 with all elements in the right (3, 8, 1, 2).
+✅ Smallest is 1, so swap it with 5.
+🔹 Array after Pass 1: [1, 3, 8, 5, 2]
+
+Step 2️⃣: Find the Next Minimum in the Remaining Unsorted Part
+👉 Now, look at the remaining unsorted part: [3, 8, 5, 2].
+👉 Assume 3 is the smallest and compare it with 8, 5, 2.
+✅ Smallest is 2, so swap it with 3.
+🔹 Array after Pass 2: [1, 2, 8, 5, 3]
+
+Step 3️⃣: Find the Next Minimum in the Remaining Unsorted Part
+👉 Look at the remaining unsorted part: [8, 5, 3].
+👉 Assume 8 is the smallest and compare it with 5, 3.
+✅ Smallest is 3, so swap it with 8.
+🔹 Array after Pass 3: [1, 2, 3, 5, 8]
+
+Step 4️⃣: Find the Minimum in the Last Two Elements
+👉 Look at [5, 8].
+✅ Smallest is 5, and it's already in place, so no swap needed.
+🔹 Array after Pass 4: [1, 2, 3, 5, 8]
+
+✅ Array is fully sorted! 🎉

@@ -1,0 +1,10 @@
+ What is Selection Sort ?
+Selection Sort is a simple sorting algorithm that works by repeatedly selecting the smallest element from the unsorted part and placing it in its correct position.
+
+📌 How Insertion Sort Works (Step-by-Step)
+
+1️⃣ Start with the second element (first element is already considered sorted).
+2️⃣ Compare it with previous elements and shift larger elements one position to the right.
+3️⃣ Insert the current element into its correct position.
+4️⃣ Repeat the process for all elements until the array is sorted.
+
