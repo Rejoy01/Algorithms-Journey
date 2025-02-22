@@ -2,7 +2,7 @@ function SelectinSort(arr){
 
     let n = arr.length;
 
-    for(let i = 0; i < n    ; i++){
+    for(let i = 0; i < n   ; i++){
             let min = i
         for(let j = i+1; j < n; j++){
 
