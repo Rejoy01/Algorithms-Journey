@@ -1,0 +1,17 @@
+🔹 What is Quick Sort?
+Divide and Conquer algorithm.
+Selects a "pivot" element and partitions the array around it.
+Elements less than the pivot go to the left.
+Elements greater than the pivot go to the right.
+Recursively applies the same process to subarrays.
+
+
+🔹 How Does It Work?
+Choose a Pivot: Usually, the last element is chosen as the pivot.
+Partitioning:
+Place all elements smaller than the pivot to the left.
+Place all elements greater than the pivot to the right.
+Pivot is now in its final sorted position.
+Recursively apply Quick Sort to left and right subarrays.
+Base Case: Arrays of length 0 or 1 are already sorted.
+
