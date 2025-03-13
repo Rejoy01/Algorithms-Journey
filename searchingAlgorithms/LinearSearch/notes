@@ -1,0 +1,3 @@
+
+Check each element one by one until the target is found.
+Simple but slow for large datasets.
