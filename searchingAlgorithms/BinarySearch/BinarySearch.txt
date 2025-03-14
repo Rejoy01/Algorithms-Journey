@@ -1,0 +1,14 @@
+2️⃣ Binary Search (Faster & Efficient)
+✅ How it Works?
+
+Works only on sorted arrays.
+
+Divide & Conquer Approach:
+
+Find the middle element.
+
+If the target is smaller, search the left half.
+
+If the target is larger, search the right half.
+
+Repeat until found or left with an empty range.
